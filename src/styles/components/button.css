@@ -1,0 +1,7 @@
+.button {
+  @apply text-button text-white w-[235px] py-4 font-secondary rounded-sm bg-primary text-center;
+}
+
+.button--small {
+  @apply w-auto px-6 py-3 rounded-md;
+}

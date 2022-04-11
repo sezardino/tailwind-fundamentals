@@ -4,9 +4,90 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Samwyle</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
+  <body class="bg-white font-base text-base">
+    <header class="container py-8 md:flex md:justify-between">
+      <div class="flex items-center sm:justify-between">
+        <button
+          id="menu-trigger"
+          class="p-2 grid gap-2 md:hidden transition-all"
+        >
+          <span class="block w-8 h-px bg-black"></span>
+          <span class="block w-8 h-px bg-black"></span>
+          <span class="block w-8 h-px bg-black"></span>
+        </button>
+        <a href="#about" class="flex ml-10 sm:ml-0" aria-label="To Home page">
+          <img src="./assets/icons/logo.svg" alt="Samwyle logotype" />
+        </a>
+      </div>
+      <nav id="menu-wrapper" class="hidden md:flex items-center">
+        <ul class="flex flex-col md:flex-row md:mr-4 xl:mr-14 mt-14 md:mt-0">
+          <li class="mb-14 text-center">
+            <a
+              href="#about"
+              class="font-secondary text-h2 md:text-sm font-bold p-2 md:mr-1 lg:mr-2 xl:mr-16"
+              >About us</a
+            >
+          </li>
+          <li class="mb-14 text-center">
+            <a
+              href="#promotion"
+              class="font-secondary text-h2 md:text-sm font-bold p-2 md:mr-1 lg:mr-2 xl:mr-16"
+              >Promotion</a
+            >
+          </li>
+          <li class="mb-14 text-center">
+            <a
+              href="#shop"
+              class="font-secondary text-h2 md:text-sm font-bold p-2 md:mr-1 lg:mr-2 xl:mr-16"
+              >Shop</a
+            >
+          </li>
+          <li class="mb-14 text-center">
+            <a
+              href="#contacts"
+              class="font-secondary text-h2 md:text-sm font-bold p-2"
+              >Contacts</a
+            >
+          </li>
+        </ul>
+        <button class="button button--small hidden md:block">Contact Us</button>
+        <ul class="md:hidden flex gap-7 justify-center">
+          <li>
+            <a href="#">
+              <img
+                src="./assets/icons/instagram.svg"
+                alt="instagram image"
+                width="32"
+                height="32"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img
+                src="./assets/icons/facebook.svg"
+                alt="facebook image"
+                width="32"
+                height="32"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img
+                src="./assets/icons/twitter.svg"
+                alt="twiiter image"
+                width="32"
+                height="32"
+              />
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
   <body>
     <script type="module" src="./main.ts"></script>
   </body>
