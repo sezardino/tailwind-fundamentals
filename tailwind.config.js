@@ -25,6 +25,10 @@ module.exports = {
       borderRadius: {
         sm: "5px",
         md: "7px",
+        lg: "25px",
+      },
+      boxShadow: {
+        card: "0px 23px 34px rgba(35, 57, 55, 0.17)",
       },
       colors: {
         primary: "#2D635E",

@@ -1,5 +1,5 @@
 .button {
-  @apply text-button text-white w-[235px] py-4 font-secondary rounded-sm bg-primary text-center;
+  @apply text-button text-white px-8 py-4 font-secondary rounded-sm bg-primary text-center;
 }
 
 .button--small {
