@@ -24,28 +24,28 @@
       </div>
       <nav id="menu-wrapper" class="hidden md:flex items-center">
         <ul class="flex flex-col md:flex-row md:mr-4 xl:mr-14 mt-14 md:mt-0">
-          <li class="mb-14 text-center">
+          <li class="mb-14 md:mb-0 text-center">
             <a
               href="#about"
               class="font-secondary text-h2 md:text-sm font-bold p-2 md:mr-1 lg:mr-2 xl:mr-16"
               >About us</a
             >
           </li>
-          <li class="mb-14 text-center">
+          <li class="mb-14 md:mb-0 text-center">
             <a
               href="#promotion"
               class="font-secondary text-h2 md:text-sm font-bold p-2 md:mr-1 lg:mr-2 xl:mr-16"
               >Promotion</a
             >
           </li>
-          <li class="mb-14 text-center">
+          <li class="mb-14 md:mb-0 text-center">
             <a
               href="#shop"
               class="font-secondary text-h2 md:text-sm font-bold p-2 md:mr-1 lg:mr-2 xl:mr-16"
               >Shop</a
             >
           </li>
-          <li class="mb-14 text-center">
+          <li class="mb-14 md:mb-0 text-center">
             <a
               href="#contacts"
               class="font-secondary text-h2 md:text-sm font-bold p-2"
@@ -54,9 +54,9 @@
           </li>
         </ul>
         <button class="button button--small hidden md:block">Contact Us</button>
-        <ul class="md:hidden flex gap-7 justify-center">
+        <ul class="flex md:hidden social">
           <li>
-            <a href="#">
+            <a href="#" aria-label="link to social media instagram">
               <img
                 src="./assets/icons/instagram.svg"
                 alt="instagram image"
@@ -66,7 +66,7 @@
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#" aria-label="link to social media facebook">
               <img
                 src="./assets/icons/facebook.svg"
                 alt="facebook image"
@@ -76,7 +76,7 @@
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#" aria-label="link to social media twiiter">
               <img
                 src="./assets/icons/twitter.svg"
                 alt="twiiter image"
@@ -88,7 +88,66 @@
         </ul>
       </nav>
     </header>
-  <body>
+    <main>
+      <section class="container pt-32 md:pt-5 md:grid md:grid-cols-2">
+        <div class="grid gap-6 content-center">
+          <h1 class="font-cursive">Drink coffee, enjoy with Samwyle</h1>
+          <p
+            class="font-secondary leading-none text-h1-mobile lg:text-h1 font-bold"
+          >
+            Coffee Shop
+          </p>
+          <button class="button">Order here</button>
+        </div>
+        <div class="hidden md:flex justify-end">
+          <a
+            href="#"
+            aria-labe="to next page"
+            class="hidden xl:flex p-14 self-end bg-gray mb-[49px] group"
+          >
+            <img
+              src="./assets/icons/arrow.svg"
+              alt="arrow"
+              class="transition-transform group-hover:translate-x-1"
+            />
+          </a>
+          <img src="./assets/hero/img-1.png" width="410" height="513" />
+
+          <ul class="social social--hero hidden xl:ml-10 xl:grid">
+            <li>
+              <a href="#">
+                <img
+                  src="./assets/icons/instagram.svg"
+                  alt="instagram image"
+                  width="32"
+                  height="32"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img
+                  src="./assets/icons/facebook.svg"
+                  alt="facebook image"
+                  width="32"
+                  height="32"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img
+                  src="./assets/icons/twitter.svg"
+                  alt="twiiter image"
+                  width="32"
+                  height="32"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
     <script type="module" src="./main.ts"></script>
   </body>
 </html>

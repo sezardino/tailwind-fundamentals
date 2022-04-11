@@ -1,0 +1,7 @@
+.social {
+  @apply gap-7 justify-center;
+}
+
+.social--hero {
+  @apply flex-col gap-3 self-end;
+}
